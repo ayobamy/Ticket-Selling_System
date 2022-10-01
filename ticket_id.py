@@ -12,4 +12,4 @@ def get_ticket_id(ticket_type):
     elif ticket_type == "Platinum":
         return random.randint(2000, 3000)
 
-print(get_ticket_id("Gold"))
+print(get_ticket_id("Silver"))
