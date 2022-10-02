@@ -1,15 +1,14 @@
 # ticket selling system
+ticket = input("""What type of ticket do you want to buy? 
+                Enter:  g for gold
+                        s for silver
+                        p for platinum
+                .....
+                """)
 
-# ticket = input("""What type of ticket do you want to buy? 
-#                 Enter:  g for gold
-#                         s for silver
-#                         p for platinum
-#                 .....
-#                 """)
+ticket = ticket.lower()
 
-# ticket = ticket.lower()
-
-def ticket_type(self):
+def ticket_type():
     if ticket == "g":
         ticket_type = "Gold"
         return ticket_type
@@ -21,5 +20,6 @@ def ticket_type(self):
         return ticket_type
     else:
         return "Invalid ticket type"
+
 
 
