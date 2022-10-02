@@ -15,5 +15,3 @@ def get_ticket_id():
         return random.randint(2000, 3000)
     else:
         return None
-    
-print(get_ticket_id())
