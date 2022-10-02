@@ -13,4 +13,3 @@ def ticket_price():
     else:
         return None
 
-print(ticket_price())
